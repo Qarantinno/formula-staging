@@ -10,5 +10,9 @@
   "license": "ISC",
   "dependencies": {
     "jest": "^25.2.7"
+  },
+  "jest": {
+    "testRegex": "/tests/.*Test.js$",
+    "rootDir": "."
   }
 }
